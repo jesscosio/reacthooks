@@ -1,7 +1,7 @@
 import React from 'react';
-import {useViewport} from '../util/ViewportProvider';
-import WelcomeMobile from './mobile/WelcomeMobile';
-import WelcomeDesktop from './desktop/WelcomeDesktop';
+import {useViewport} from './util/ViewportProvider';
+import WelcomeMobile from './mobile/home/WelcomeMobile';
+import WelcomeDesktop from './desktop/home/WelcomeDesktop';
 
 function Welcome(props) {
     const {width} = useViewport();

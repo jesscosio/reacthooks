@@ -1,6 +1,6 @@
 import React from 'react';
 import ViewportProvider from "./components/util/ViewportProvider";
-import Welcome from './components/home/Welcome';
+import Welcome from './components/Welcome';
 import './App.css';
 
 function App() {
