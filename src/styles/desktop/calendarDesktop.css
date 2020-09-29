@@ -1,0 +1,23 @@
+.calendar-header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-outline-primary, .date-selector-btns .week-selector-btn {
+    color: #4fc3f7;
+    border-color: #4fc3f7;
+    padding: .2em 1em;
+    font-weight: bolder;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary  {
+    background-color: #4fc3f7;
+}
+
+.reset-calendar-btn.btn{
+    color: #4fc3f7;
+    border-color: #4fc3f7;
+    padding: .2em .75em;
+    margin-left: 20px;
+    font-weight: 500;
+}
